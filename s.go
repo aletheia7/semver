@@ -1,19 +1,5 @@
-// Copyright 2015 aletheia7.
-//
-// This file is part of semver.
-//
-// semver is free software: you can redistribute it and/or modify
-// it under the terms of the GNU Lesser General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// semver is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU Lesser General Public License for more details.
-//
-// You should have received a copy of the GNU Lesser General Public License
-// along with semver.  If not, see <http://www.gnu.org/licenses/>.
+// Copyright 2016 aletheia7. All rights reserved. Use of this source code is
+// governed by a BSD-2-Clause license that can be found in the LICENSE file.
 
 // semver.org version strings only allow [0-9A-Za-z-]. This package allows
 // unicode letters in place of A-Z and a-z; i.e. 3.24.3-β+20150115102400 is
@@ -21,6 +7,7 @@
 // noncompliant with semver.org.
 
 // Package semver compares semver.org version strings.
+
 package semver
 
 import (
