@@ -1,11 +1,7 @@
 [![](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/aletheia7/semver) 
+
 #### semver 
 Go package that compares semver.org version strings
-
-#### Install 
-```bash
-go get github.com/aletheia7/semver
-```
 
 [semver.org](http://semver.org/) version strings only allow [0-9A-Za-z-]. This
 package allows unicode letters in place of A-Z and a-z; i.e. 
